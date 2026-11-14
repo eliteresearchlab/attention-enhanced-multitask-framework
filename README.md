@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # An End-to-End Transformer-Based Framework for Joint Segmentation and Classification of Cervical Cancer in Cytology Images
 
 _ELITE Research Lab_
@@ -13,7 +18,6 @@ _ELITE Research Lab_
 
 ```
 src/       # code
-data/      # datasets or pointers to them
 paper/     # manuscript (Overleaf-synced, if linked)
 ```
 
