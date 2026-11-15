@@ -1,0 +1,716 @@
+//Intro
+
+@misc{Intro1who2024cervical,
+  author       = {{World Health Organization}},
+  title        = {Cervical Cancer Fact Sheet},
+  howpublished = {\url{https://www.who.int/news-room/fact-sheets/detail/cervical-cancer}},
+  year         = {2024},
+  note         = {Accessed: 2026-08-10}
+}
+
+@misc{Intro2iarc2024gco,
+  author       = {{International Agency for Research on Cancer}},
+  title        = {Global Cancer Observatory: {Cancer Today}},
+  howpublished = {\url{https://gco.iarc.who.int/today/en}},
+  year         = {2024},
+  note         = {Accessed: 2026-08-10}
+}
+
+@article{Intro3mathivanan2024enhancing,
+  title={Enhancing cervical cancer detection and robust classification through a fusion of deep learning models},
+  author={Mathivanan, Sandeep Kumar and Francis, Divya and Srinivasan, Saravanan and Khatavkar, Vaibhav and P, Karthikeyan and Shah, Mohd Asif},
+  journal={Scientific reports},
+  volume={14},
+  number={1},
+  pages={10812},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{Intro4jiang2023systematicreview,
+  title={A systematic review of deep learning-based cervical cytology screening: from cell identification to whole slide image analysis: P. Jiang et al.},
+  author={Jiang, Peng and Li, Xuekong and Shen, Hui and Chen, Yuqi and Wang, Lang and Chen, Hua and Feng, Jing and Liu, Juan},
+  journal={Artificial Intelligence Review},
+  volume={56},
+  number={Suppl 2},
+  pages={2687--2758},
+  year={2023},
+  publisher={Springer}
+}
+
+@article{Intro5khare2024systematic,
+  title={A systematic review and research recommendations on artificial intelligence for automated cervical cancer detection},
+  author={Khare, Smith K and Blanes-Vidal, Victoria and Booth, Berit Bargum and Petersen, Lone Kjeld and Nadimi, Esmaeil S},
+  journal={Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery},
+  volume={14},
+  number={6},
+  pages={e1550},
+  year={2024},
+  publisher={Wiley Online Library}
+}
+
+@article{Intro6xiang2020novel,
+  title={A novel automation-assisted cervical cancer reading method based on convolutional neural network},
+  author={Xiang, Yao and Sun, Wanxin and Pan, Changli and Yan, Meng and Yin, Zhihua and Liang, Yixiong},
+  journal={Biocybernetics and Biomedical Engineering},
+  volume={40},
+  number={2},
+  pages={611--623},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{Intro7william2018review,
+  title={A review of image analysis and machine learning techniques for automated cervical cancer screening from pap-smear images},
+  author={William, Wasswa and Ware, Andrew and Basaza-Ejiri, Annabella Habinka and Obungoloch, Johnes},
+  journal={Computer methods and programs in biomedicine},
+  volume={164},
+  pages={15--22},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{Intro8civit2024lightweight,
+  title={A lightweight xAI approach to cervical cancer classification},
+  author={Civit-Masot, Javier and Luna-Perejon, Francisco and Mu{\~n}oz-Saavedra, Luis and Dom{\'\i}nguez-Morales, Manuel and Civit, Anton},
+  journal={Medical \& Biological Engineering \& Computing},
+  volume={62},
+  number={8},
+  pages={2281--2304},
+  year={2024},
+  publisher={Springer}
+}
+
+
+
+// LITERATURE REVIEW
+
+@article{Lite1, 
+    title={Dermatologist-level classification of skin cancer with deep neural networks}, 
+    volume={542}, 
+    url={https://doi.org/10.1038/nature21056}, 
+    DOI={10.1038/nature21056}, 
+    number={7639}, 
+    journal={Nature}, 
+    author={Esteva, Andre and Kuprel, Brett and Novoa, Roberto A. and Ko, Justin and Swetter, Susan M. and Blau, Helen M. and Thrun, Sebastian}, 
+    year={2017}, 
+    month=jan, 
+    pages={115–118} 
+}
+
+@article{Lite2,
+	title = {Systematic outperformance of 112 dermatologists in multiclass skin cancer image classification by convolutional neural networks},
+	volume = {119},
+	issn = {09598049},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S0959804919303818},
+	doi = {10.1016/j.ejca.2019.06.013},
+	language = {en},
+	urldate = {2026-10-07},
+	journal = {European Journal of Cancer},
+	author = {Maron, Roman C. and Weichenthal, Michael and Utikal, Jochen S. and Hekler, Achim et al.},
+	month = sep,
+	year = {2019},
+	pages = {57--65},
+}
+
+@article{Lite3,
+	title = {Artificial intelligence in retina},
+	volume = {67},
+	issn = {13509462},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1350946218300119},
+	doi = {10.1016/j.preteyeres.2018.07.004},
+	language = {en},
+	urldate = {2026-10-07},
+	journal = {Progress in Retinal and Eye Research},
+	author = {Schmidt-Erfurth, Ursula and Sadeghipour, Amir and Gerendas, Bianca S. and Waldstein, Sebastian M. and Bogunović, Hrvoje},
+	month = nov,
+	year = {2018},
+	pages = {1--29},
+}
+
+@article{Lite4, 
+    title={Artificial intelligence in cancer imaging: Clinical challenges and applications}, 
+    volume={69}, 
+    url={https://doi.org/10.3322/caac.21552}, 
+    DOI={10.3322/caac.21552}, 
+    number={2}, 
+    journal={CA a Cancer Journal for Clinicians}, 
+    author={Bi, Wenya Linda and Hosny, Ahmed and Schabath, Matthew B. and Giger, Maryellen L. and Birkbak, Nicolai J. and Mehrtash, Alireza and Allison, Tavis and Arnaout, Omar and Abbosh, Christopher and Dunn, Ian F. and Mak, Raymond H. and Tamimi, Rulla M. and Tempany, Clare M. and Swanton, Charles and Hoffmann, Udo and Schwartz, Lawrence H. and Gillies, Robert J. and Huang, Raymond Y. and Aerts, Hugo J. W. L.}, 
+    year={2019}, 
+    month=feb, 
+    pages={127–157} 
+}
+
+@article{Lite5, 
+    title={Artificial intelligence in gastric cancer: a systematic review}, volume={146}, 
+    url={https://doi.org/10.1007/s00432-020-03304-9}, 
+    DOI={10.1007/s00432-020-03304-9}, 
+    number={9}, 
+    journal={Journal of Cancer Research and Clinical Oncology}, 
+    author={Jin, Peng and Ji, Xiaoyan and Kang, Wenzhe and Li, Yang and Liu, Hao and Ma, Fuhai and Ma, Shuai and Hu, Haitao and Li, Weikun and Tian, Yantao}, 
+    year={2020}, 
+    month=jul, 
+    pages={2339–2350} 
+}
+
+@article{Lite6, 
+    title={Detection of oral bacteria in cardiovascular specimens}, 
+    volume={24}, 
+    url={https://doi.org/10.1111/j.1399-302x.2008.00479.x}, 
+    DOI={10.1111/j.1399-302x.2008.00479.x}, 
+    number={1}, 
+    journal={Oral Microbiology and Immunology}, 
+    author={Nakano, K. and Nemoto, H. and Nomura, R. and Inaba, H. and Yoshioka, H. and Taniguchi, K. and Amano, A. and Ooshima, T.}, 
+    year={2008}, 
+    month=dec, 
+    pages={64–68} 
+}
+
+@InProceedings{Lite7,
+author="Ronneberger, Olaf
+and Fischer, Philipp
+and Brox, Thomas",
+editor="Navab, Nassir
+and Hornegger, Joachim
+and Wells, William M.
+and Frangi, Alejandro F.",
+title="U-Net: Convolutional Networks for Biomedical Image Segmentation",
+booktitle="Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2015",
+year="2015",
+publisher="Springer International Publishing",
+address="Cham",
+pages="234--241",
+isbn="978-3-319-24574-4"
+}
+
+@article{Lite8,
+title = {FTransCNN: Fusing Transformer and a CNN based on fuzzy logic for uncertain medical image segmentation},
+journal = {Information Fusion},
+volume = {99},
+pages = {101880},
+year = {2023},
+issn = {1566-2535},
+doi = {https://doi.org/10.1016/j.inffus.2023.101880},
+url = {https://www.sciencedirect.com/science/article/pii/S1566253523001963},
+author = {Weiping Ding and Haipeng Wang and Jiashuang Huang and Hengrong Ju and Yu Geng and Chin-Teng Lin and Witold Pedrycz}
+}
+
+@article{Lite9, 
+    title={Denoising and segmentation in medical image analysis: A comprehensive review on machine learning and deep learning approaches}, 
+    volume={84}, 
+    url={https://doi.org/10.1007/s11042-024-19313-6}, 
+    DOI={10.1007/s11042-024-19313-6}, 
+    number={12}, 
+    journal={Multimedia Tools and Applications}, 
+    author={Kumar, Ravi Ranjan and Priyadarshi, Rahul}, 
+    year={2024}, 
+    month=may, 
+    pages={10817–10875} 
+}
+
+@article{Lite10, 
+    title={A fuzzy distance-based ensemble of deep models for cervical cancer detection}, 
+    volume={219}, 
+    url={https://doi.org/10.1016/j.cmpb.2022.106776}, 
+    DOI={10.1016/j.cmpb.2022.106776}, 
+    journal={Computer Methods and Programs in Biomedicine}, 
+    author={Pramanik, Rishav and Biswas, Momojit and Sen, Shibaprasad and De Souza Júnior, Luis Antonio and Papa, João Paulo and Sarkar, Ram}, 
+    year={2022}, 
+    month=mar, 
+    pages={106776} 
+}
+
+@article{Lite11, 
+    title={ViT-PSO-SVM: Cervical Cancer Predication Based on Integrating Vision Transformer with Particle Swarm Optimization and Support Vector Machine}, 
+    volume={11}, 
+    url={https://doi.org/10.3390/bioengineering11070729}, 
+    DOI={10.3390/bioengineering11070729}, 
+    number={7}, 
+    journal={Bioengineering}, 
+    author={AlMohimeed, Abdulaziz and Shehata, Mohamed and El-Rashidy, Nora and Mostafa, Sherif and Talaat, Amira Samy and Saleh, Hager}, 
+    year={2024}, 
+    month=jul, 
+    pages={729} 
+}
+
+@article{Lite12, 
+    title={HDFCN: a robust hybrid deep network based on feature concatenation for cervical cancer diagnosis on WSI PAP smear slides}, 
+    volume={2023}, 
+    url={https://doi.org/10.1155/2023/4214817}, 
+    DOI={10.1155/2023/4214817}, 
+    number={1}, 
+    journal={BioMed Research International}, 
+    author={Chauhan, Nitin Kumar and Singh, Krishna and Kumar, Amit and Kolambakar, Swapnil Baburav}, 
+    year={2023}, 
+    month=jan, 
+    pages={4214817} 
+}
+
+@article{Lite13, 
+    title={Deep learning-based approaches for robust classification of cervical cancer}, 
+    volume={35}, 
+    url={https://doi.org/10.1007/s00521-023-08757-w}, 
+    DOI={10.1007/s00521-023-08757-w}, 
+    number={25}, 
+    journal={Neural Computing and Applications}, 
+    author={Pacal, Ishak and Kılıcarslan, Serhat}, 
+    year={2023}, 
+    month=jul, 
+    pages={18813–18828} 
+}
+
+@article{Lite14, 
+    title={Investigating deep learning approaches for cervical cancer diagnosis: a focus on modern image-based models}, 
+    volume={46}, 
+    url={https://www.ejgo.net/articles/10.22514/ejgo.2025.012}, 
+    DOI={10.22514/ejgo.2025.012}, 
+    number={1}, 
+    journal={European Journal of Gynaecological Oncology}, 
+    author={Pacal, Ishak}, 
+    year={2025},  
+    pages={125-141} 
+}
+
+@article{Lite15, 
+    title={Enhancing cervical cancer detection and robust classification through a fusion of deep learning models}, 
+    volume={14}, 
+    url={https://doi.org/10.1038/s41598-024-61063-w}, 
+    DOI={10.1038/s41598-024-61063-w}, 
+    number={1}, 
+    journal={Scientific Reports}, 
+    author={Mathivanan, Sandeep Kumar and Francis, Divya and Srinivasan, Saravanan and Khatavkar, Vaibhav and P, Karthikeyan and Shah, Mohd Asif}, 
+    year={2024}, 
+    month=may, 
+    pages={10812} 
+}
+
+@article{Lite16, 
+    title={Early screening of cervical cancer based on tissue Raman spectroscopy combined with deep learning algorithms}, 
+    volume={42}, 
+    url={https://doi.org/10.1016/j.pdpdt.2023.103557}, 
+    DOI={10.1016/j.pdpdt.2023.103557}, 
+    journal={Photodiagnosis and Photodynamic Therapy}, 
+    author={Kang, Zhenping and Liu, Jie and Ma, Cailing and Chen, Chen and Lv, Xiaoyi and Chen, Cheng}, 
+    year={2023}, 
+    month=apr, 
+    pages={103557} 
+}
+
+@article{Lite17,
+title = {MaxCerVixT: A novel lightweight vision transformer-based Approach for precise cervical cancer detection},
+journal = {Knowledge-Based Systems},
+volume = {289},
+pages = {111482},
+year = {2024},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2024.111482},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705124001175},
+author = {Ishak Pacal}
+}
+
+@article{Lite19, 
+    title={Attention U-Net: Learning where to look for the pancreas}, 
+    url={http://arxiv.org/abs/1804.03999}, 
+    DOI={10.48550/arxiv.1804.03999}, 
+    journal={arXiv (Cornell University)}, 
+    author={Oktay, Ozan and Schlemper, Jo and Folgoc, Loic Le and Lee, Matthew and Heinrich, Mattias and Misawa, Kazunari and Mori, Kensaku and McDonagh, Steven and Hammerla, Nils Y and Kainz, Bernhard and Glocker, Ben and Rueckert, Daniel}, 
+    year={2018}, 
+    month=apr 
+}
+
+@article{Lite20, 
+    title={Segmentation of cytology images to detect cervical cancer using deep learning techniques}, 
+    url={https://doi.org/10.1007/978-3-031-63772-8_25}, 
+    DOI={10.1007/978-3-031-63772-8_25}, 
+    journal={Lecture Notes in Computer Science}, 
+    author={Wubineh, Betelhem Zewdu and Rusiecki, Andrzej and Halawa, Krzysztof}, 
+    year={2024}, 
+    month=jan, 
+    pages={270–278} 
+}
+
+@article{Lite21, 
+    title={Segmentation and classification of cervical cells using deep learning}, 
+    volume={7}, 
+    url={https://doi.org/10.1109/access.2019.2936017}, 
+    DOI={10.1109/access.2019.2936017}, 
+    journal={IEEE Access}, 
+    author={Kurnianingsih and Allehaibi, Khalid Hamed S. and Nugroho, Lukito Edi and Widyawan and Lazuardi, Lutfan and Prabuwono, Anton Satria and Mantoro, Teddy}, 
+    year={2019}, 
+    month=jan, 
+    pages={116925–116941} 
+}
+
+@article{Lite22,
+author = {He, Z.Y. and Sun, L.-N and Chen, L.G.},
+year = {2013},
+month = {02},
+pages = {268-270},
+title = {Fast computation of threshold based on Otsu criterion},
+volume = {41},
+journal = {Chin. J. Electron.},
+doi = {10.3969/j.issn.0372-2112.2013.02.010}
+}
+
+@article{Lite23,
+    title = {Superpixels: An evaluation of the state-of-the-art},
+    journal = {Computer Vision and Image Understanding},
+    volume = {166},
+    pages = {1-27},
+    year = {2018},
+    issn = {1077-3142},
+    doi = {https://doi.org/10.1016/j.cviu.2017.03.007},
+    url = {https://www.sciencedirect.com/science/article/pii/S1077314217300589},
+    author = {David Stutz and Alexander Hermans and Bastian Leibe},
+}
+
+@article{Lite24, 
+    title={Cell Segmentation Based on FOPSO Combined With Shape Information Improved Intuitionistic FCM}, 
+    volume={23}, 
+    url={https://doi.org/10.1109/jbhi.2018.2803020}, 
+    DOI={10.1109/jbhi.2018.2803020}, 
+    number={1}, 
+    journal={IEEE Journal of Biomedical and Health Informatics}, 
+    author={Bai, Xiangzhi and Sun, Chuxiong and Sun, Changming}, 
+    year={2018}, 
+    month=feb, 
+    pages={449–459} 
+}
+
+@article{Lite25, 
+    title={Fully convolutional networks for semantic segmentation}, url={http://arxiv.org/abs/1411.4038}, 
+    DOI={10.48550/arxiv.1411.4038}, 
+    journal={arXiv (Cornell University)}, 
+    author={Long, Jonathan and Shelhamer, Evan and Darrell, Trevor}, 
+    year={2014}, 
+    month=nov 
+}
+
+@article{Lite26, 
+    title={Mask R-CNN}, 
+    url={https://doi.org/10.1109/iccv.2017.322}, 
+    DOI={10.1109/iccv.2017.322}, 
+    journal={IEEE International Conference on Computer Vision (ICCV)}, 
+    author={He, Kaiming and Gkioxari, Georgia and Dollar, Piotr and Girshick, Ross}, 
+    year={2017}, 
+    month=oct, 
+    pages={2980–2988} 
+}
+
+@article{Lite27, 
+    title={Cervical cell segmentation method based on global dependency and local attention}, 
+    volume={12}, 
+    url={https://doi.org/10.3390/app12157742}, 
+    DOI={10.3390/app12157742}, 
+    number={15}, 
+    journal={Applied Sciences}, 
+    author={Li, Gang and Sun, Chengjie and Xu, Chuanyun and Zheng, Yu and Wang, Keya}, 
+    year={2022}, 
+    month=aug, 
+    pages={7742} 
+}
+
+@article{Lite28, 
+    title={Deep learning in CT image segmentation of cervical cancer: a systematic review and meta-analysis}, 
+    volume={17}, 
+    url={https://doi.org/10.1186/s13014-022-02148-6}, 
+    DOI={10.1186/s13014-022-02148-6}, 
+    number={1}, 
+    journal={Radiation Oncology}, 
+    author={Yang, Chongze and Qin, Lan-Hui and Xie, Yu-En and Liao, Jin-Yuan}, 
+    year={2022}, 
+    month=nov, 
+    pages={175} 
+}
+
+@article{Lite29, 
+    title={Graph-based methods for cervical cancer segmentation: Advancements, limitations, and future directions}, 
+    volume={4}, 
+    url={https://doi.org/10.1016/j.aiopen.2023.08.006}, 
+    DOI={10.1016/j.aiopen.2023.08.006}, 
+    journal={AI Open}, 
+    author={Zaki, Nazar and Qin, Wenjian and Krishnan, Anusuya}, 
+    year={2023}, 
+    month=jan, 
+    pages={42–55} 
+}
+
+@article{Lite30, 
+    title={Cervical cancer segmentation based on PGC-Net}, 
+    volume={13}, 
+    url={https://doi.org/10.1109/access.2025.3639559}, 
+    DOI={10.1109/access.2025.3639559}, 
+    journal={IEEE Access}, 
+    author={Chen, Shaojun and Sun, Borui and Gong, Xue and Fan, Xiangsuo}, 
+    year={2025}, 
+    month=jan, 
+    pages={206106–206120} 
+}
+
+@article{Lite31,
+title = {Overlapping cytoplasms segmentation via constrained multi-shape evolution for cervical cancer screening},
+journal = {Artificial Intelligence in Medicine},
+volume = {148},
+pages = {102756},
+year = {2024},
+issn = {0933-3657},
+doi = {https://doi.org/10.1016/j.artmed.2023.102756},
+url = {https://www.sciencedirect.com/science/article/pii/S0933365723002701},
+author = {Youyi Song and Ao Zhang and Jinglin Zhou and Yu Luo and Zhizhe Lin and Teng Zhou}
+}
+
+@article{Lite32, 
+    title={Improved CervicalNet: integrating attention mechanisms and graph convolutions for cervical cancer segmentation}, 
+    volume={16}, 
+    url={https://doi.org/10.1007/s13042-025-02576-2}, 
+    DOI={10.1007/s13042-025-02576-2}, 
+    number={7–8}, 
+    journal={International Journal of Machine Learning and Cybernetics}, author={Abinaya, K. and Sivakumar, B.}, 
+    year={2025}, 
+    month=mar, 
+    pages={5339–5364} 
+}
+
+@article{Lite33, 
+    title={SegResDeiT: a hybrid SegNet–ResNet-50–DeiT framework for automated cervical cancer segmentation and classification}, 
+    volume={25}, 
+    url={https://doi.org/10.1186/s12880-025-02001-8}, 
+    DOI={10.1186/s12880-025-02001-8}, 
+    number={1}, 
+    journal={BMC Medical Imaging}, 
+    author={D, Aaseegha M and B, Venkataramana}, 
+    year={2025}, 
+    month=nov, 
+    pages={469} 
+}
+
+@article{Lite34, 
+    title={A comprehensive study on the multi-class cervical cancer diagnostic prediction on pap smear images using a fusion-based decision from ensemble deep convolutional neural network}, 
+    volume={65}, 
+    url={https://doi.org/10.1016/j.tice.2020.101347}, 
+    DOI={10.1016/j.tice.2020.101347}, 
+    journal={Tissue and Cell}, 
+    author={Hussain, Elima and Mahanta, Lipi B. and Das, Chandana Ray and Talukdar, Ratna Kanta}, 
+    year={2020}, 
+    month=feb, 
+    pages={101347} 
+}
+
+@article{Lite35, 
+    title={DeepPAP: Deep Convolutional Networks for Cervical Cell Classification}, 
+    volume={21}, 
+    url={https://doi.org/10.1109/jbhi.2017.2705583}, 
+    DOI={10.1109/jbhi.2017.2705583}, 
+    number={6}, 
+    journal={IEEE Journal of Biomedical and Health Informatics}, 
+    author={Zhang, Ling and Lu, Le and Nogues, Isabella and Summers, Ronald M. and Liu, Shaoxiong and Yao, Jianhua}, 
+    year={2017}, 
+    month=may, 
+    pages={1633–1643} 
+}
+
+@article{Lite36, 
+    title={CVM-Cervix: A hybrid cervical Pap-smear image classification framework using CNN, visual transformer and multilayer perceptron}, 
+    volume={130}, 
+    url={https://doi.org/10.1016/j.patcog.2022.108829}, 
+    DOI={10.1016/j.patcog.2022.108829}, 
+    journal={Pattern Recognition}, 
+    author={Liu, Wanli and Li, Chen and Xu, Ning and Jiang, Tao and Rahaman, Md Mamunur and Sun, Hongzan and Wu, Xiangchen and Hu, Weiming and Chen, Haoyuan and Sun, Changhao and Yao, Yudong and Grzegorzek, Marcin}, 
+    year={2022}, 
+    month=jun, 
+    pages={108829} 
+}
+
+@article{Lite37, 
+    title={Nominated Texture based Cervical Cancer Classification}, 
+    volume={2015}, 
+    url={https://doi.org/10.1155/2015/586928}, 
+    DOI={10.1155/2015/586928}, 
+    journal={Computational and Mathematical Methods in Medicine}, 
+    author={Mariarputham, Edwin Jayasingh and Stephen, Allwin}, 
+    year={2015}, 
+    month=jan, 
+    pages={1–10} 
+}
+
+@article{Lite38, 
+    title={SiPakMed: A new dataset for feature and image based classification of normal and pathological cervical cells in PAP smear images}, 
+    url={https://doi.org/10.1109/icip.2018.8451588}, 
+    DOI={10.1109/icip.2018.8451588}, 
+    journal={Proceedings - International Conference on Image Processing}, 
+    author={Plissiti, Marina E. and Dimitrakopoulos, P. and Sfikas, G. and Nikou, Christophoros and Krikoni, O. and Charchanti, A.}, 
+    year={2018}, 
+    month=sep, 
+    pages={3144–3148} 
+}
+
+@article{Lite39, 
+    title={DeepCervix: A deep learning-based framework for the classification of cervical cells using hybrid deep feature fusion techniques}, 
+    volume={136}, 
+    url={https://doi.org/10.1016/j.compbiomed.2021.104649}, 
+    DOI={10.1016/j.compbiomed.2021.104649}, 
+    journal={Computers in Biology and Medicine}, 
+    author={Rahaman, Md Mamunur and Li, Chen and Yao, Yudong and Kulwa, Frank and Wu, Xiangchen and Li, Xiaoyan and Wang, Qian}, 
+    year={2021}, 
+    month=jul, 
+    pages={104649} 
+}
+
+@article{Lite40, 
+    title={MTLCS: A cervical auxiliary classification strategy based on multi-task learning}, 
+    volume={12}, 
+    url={https://doi.org/10.1007/s40747-025-02165-4}, 
+    DOI={10.1007/s40747-025-02165-4}, 
+    number={1}, 
+    journal={Complex \& Intelligent Systems}, 
+    author={Wen, Li and Zhang, Xiaoqing and Gou, Fangfang and Wu, Jia}, 
+    year={2025}, 
+    month=dec 
+}
+
+@article{Lite41, 
+    title={CerviFormer: A pap smear‐based cervical cancer classification method using cross‐attention and latent transformer}, 
+    volume={34}, 
+    url={https://doi.org/10.1002/ima.23043}, 
+    DOI={10.1002/ima.23043}, 
+    number={2}, 
+    journal={International Journal of Imaging Systems and Technology}, 
+    author={Deo, Bhaswati Singha and Pal, Mayukha and Panigrahi, Prasanta K. and Pradhan, Asima}, 
+    year={2024}, 
+    month=feb 
+}
+
+@article{Lite42, 
+    title={CervixFormer: A Multi-scale swin transformer-Based cervical pap-Smear WSI classification framework}, 
+    volume={240}, 
+    url={https://doi.org/10.1016/j.cmpb.2023.107718}, 
+    DOI={10.1016/j.cmpb.2023.107718}, 
+    journal={Computer Methods and Programs in Biomedicine}, 
+    author={Khan, Anwar and Han, Seunghyeon and Ilyas, Naveed and Lee, Yong-Moon and Lee, Yong-Moon and Lee, Boreom}, 
+    year={2023}, 
+    month=jul, 
+    pages={107718} 
+}
+
+@article{Lite43, 
+    title={Joint segmentation and classification of cervical cells using U-Net and CNN ensemble for early detection of cervical cancer}, 
+    volume={26}, 
+    url={https://doi.org/10.1186/s12935-026-04234-1}, 
+    DOI={10.1186/s12935-026-04234-1}, 
+    number={1}, 
+    journal={Cancer Cell International}, 
+    author={Babatunde, Akinbowale Nathaniel and Aroba, Oluwasegun Julius and Adeniyi, Abidemi Emmanuel and Isiaka, Salman Olatunji and Abdulrahman, Tosho A. and Kadri, Akeem Femi and Mohammed, Shuaib Babatunde and Rudolph, Michael}, 
+    year={2026}, 
+    month=feb 
+}
+
+@article{Lite44, 
+    title={Multi-scale window transformer for cervical cytopathology image recognition}, 
+    volume={24}, 
+    url={https://doi.org/10.1016/j.csbj.2024.04.028}, 
+    DOI={10.1016/j.csbj.2024.04.028}, 
+    journal={Computational and Structural Biotechnology Journal}, 
+    author={Yi, Jiaxiang and Liu, Xiuli and Cheng, Shenghua and Chen, Li and Zeng, Shaoqun}, 
+    year={2024}, 
+    month=apr, 
+    pages={314–321} 
+}
+
+
+//Methodology
+
+
+@misc{jnx03_2025,
+	title={CytologCervicalCancer},
+	url={https://www.kaggle.com/ds/7191290},
+	DOI={10.34740/KAGGLE/DS/7191290},
+	publisher={Kaggle},
+	author={Jnx03},
+	year={2025}
+}
+
+@misc{aswini2026apcem,
+  author    = {Aswini, H.},
+  title     = {APCEM-Enhanced Cervical Cytology Image Dataset},
+  year      = {2026},
+  version   = {2},
+  publisher = {Mendeley Data},
+  doi       = {10.17632/snzb5g6ddy.2},
+  url       = {https://doi.org/10.17632/snzb5g6ddy.2}
+}
+
+@ARTICLE{10.3389/fonc.2025.1703772,
+    
+AUTHOR={Mondal, Jheelam  and Chatterjee, Rajdeep  and Kumar Gourisaria, Mahendra  and Sahni, Manoj  and León-Castro, Ernesto },
+           
+TITLE={Cervical cancer classification using a novel hybrid approach},
+          
+JOURNAL={Frontiers in Oncology},
+          
+VOLUME={Volume 15 - 2025},
+  
+YEAR={2025},
+  
+URL={https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1703772},
+  
+DOI={10.3389/fonc.2025.1703772},
+  
+ISSN={2234-943X}
+}
+
+
+
+@article{Intro1,
+  title={A lightweight xAI approach to cervical cancer classification},
+  author={Civit-Masot, Javier and Luna-Perejon, Francisco and Mu{\~n}oz-Saavedra, Luis and Dom{\'\i}nguez-Morales, Manuel and Civit, Anton},
+  journal={Medical \& Biological Engineering \& Computing},
+  volume={62},
+  number={8},
+  pages={2281--2304},
+  year={2024},
+  publisher={Springer}
+}
+
+//comperative analysis
+
+@article{sharma2025diagnosis,
+  title={Diagnosis of cervical cancer using CNN deep learning model with transfer learning approaches},
+  author={Sharma, Arpit Kumar and Nandal, Amita and Dhaka, Arvind and Alhudhaif, Adi and Polat, Kemal and Sharma, Arvind},
+  journal={Biomedical Signal Processing and Control},
+  volume={105},
+  pages={107639},
+  year={2025},
+  publisher={Elsevier}
+}
+
+@article{sharma2025enhancing,
+  title={Enhancing cervical cancer classification: Through a hybrid deep learning approach integrating DenseNet201 and InceptionV3},
+  author={Sharma, Abhiram and Parvathi, R},
+  journal={IEEE Access},
+  volume={13},
+  pages={9868--9878},
+  year={2025},
+  publisher={IEEE}
+}
+
+@Article{Verma2025,
+journal="Polish Journal of Radiology",
+issn="1899-0967",
+volume="90",
+year="2025",
+title="Attention-enhanced deep learning for cervical cytology: combining convolutional networks with multi-head attention and fuzzy logic",
+author="Verma, Garima
+and Barthwal, Anurag",
+pages="414--430",
+doi="10.5114/pjr/207475",
+url="https://doi.org/10.5114/pjr/207475"
+}
+@misc{shaik2025deeplearningenabledsegmentation,
+      title={Deep Learning Enabled Segmentation, Classification and Risk Assessment of Cervical Cancer}, 
+      author={Abdul Samad Shaik and Shashaank Mattur Aswatha and Rahul Jashvantbhai Pandya},
+      year={2025},
+      eprint={2505.15505},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2505.15505}, 
+}
