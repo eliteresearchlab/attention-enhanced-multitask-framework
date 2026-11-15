@@ -18,7 +18,7 @@ _ELITE Research Lab_
 
 ```
 src/       # code
-paper/     # manuscript (Overleaf-synced, if linked)
+paper/     # manuscript
 ```
 
 ---
